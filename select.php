@@ -10,7 +10,7 @@
                 ?>สร้าง cookie lang แล้ว<?php
             }else{
                 setcookie("lang",$_GET["language"],time()+3600*24);
-                ?>setค่า cookie lang ใหม่แล้ว<?php
+                ?>กำหนดค่า cookie lang ใหม่แล้ว<?php
             }
         }         
         ?>
